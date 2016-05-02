@@ -1,0 +1,20 @@
+<html>
+<body>
+    <!-- TITLE -->
+	<h1><img src="img/image2.jpeg" alt="TIMWE BRAZIL" style="width:25px;height:25px;"> PROMO IN BRAZIL TESTING</h1>
+	<h2>Jersey RESTful Web Application!</h2>
+	
+	
+	<!-- IMAGE -->
+	<p>Testing the API created using this logic:</p>
+	<img src="img/image1.jpg" alt="TIMWE BRAZIL" style="width:460px;height:128px;"><br/><br/>
+
+	<!-- LINKS -->
+	<p>/</p>
+	<a href="http://localhost:8085/projWS_003_QueryParam/">index.jsp</a><br/><br/>
+	
+	<p>/americolib/ws/query1?from=100&to=200&orderBy=age&orderBy=name</p>
+	<a href="http://localhost:8085/projWS_003_QueryParam/americolib/ws/query1?from=100&to=200&orderBy=age&orderBy=name">FROM, TO and ORDER BY STATEMENTS</a><br/><br/>	
+
+</body>
+</html>

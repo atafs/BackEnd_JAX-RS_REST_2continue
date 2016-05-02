@@ -69,21 +69,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="pt.americolib.projWS_003_QueryParam"/>
-			<item value="pt.americolib.projWS_002_Path"/>
-			<item value="pt.americolib.ws"/>
-			<item value="pt.americolib.projWS_001_template"/>
-			<item value="pt.americolib.projWS001_template"/>
 		</list>
 		<list key="groupId">
-			<item value="pt.americolib"/>
 		</list>
 		<list key="artifactId">
-			<item value="projWS_003_QueryParam"/>
-			<item value="projWS_002_Path"/>
-			<item value="ws"/>
-			<item value="projWS_001_template"/>
-			<item value="projWS001_template"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

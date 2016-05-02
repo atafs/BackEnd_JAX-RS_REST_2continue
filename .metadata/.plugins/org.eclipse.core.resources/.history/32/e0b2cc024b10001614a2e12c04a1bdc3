@@ -1,0 +1,18 @@
+<html>
+<body>
+    <!-- TITLE -->
+	<h2>Jersey RESTful Web Application!</h2>
+	
+	
+	<!-- IMAGE -->
+	<p>Testing the API created using this logic:</p>
+
+	<!-- LINKS -->
+	<p>/projWS_003_QueryParam</p>
+	<a href="http://localhost:8085/projWS_003_QueryParam/">WEB API (index)</a><br/><br/>
+	
+	<p>/americolib/ws/query1?from=100&to=200&orderBy=age&orderBy=name</p>
+	<a href="http://localhost:8085/projWS_003_QueryParam/americolib/ws/query1?from=100&to=200&orderBy=age&orderBy=name">FROM, TO and ORDER BY STATEMENTS</a><br/><br/>	
+
+</body>
+</html>
