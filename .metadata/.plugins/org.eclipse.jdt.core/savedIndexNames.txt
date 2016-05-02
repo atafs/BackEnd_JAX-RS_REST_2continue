@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+C:\Users\ameri\Google Drive\ws\BackEnd_JAX-RS_REST_2continue\.metadata\.plugins\org.eclipse.jdt.core
+1105829281.index
+2672557642.index
+731871460.index
