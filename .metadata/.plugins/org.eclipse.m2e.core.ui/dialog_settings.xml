@@ -57,6 +57,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ameri\Google Drive\ws\BackEnd_JAX-RS_REST_2continue\projWS_007_downloadFile"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,10 +70,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="pt.americolib.projWS_008_downloadImage"/>
 		</list>
 		<list key="groupId">
+			<item value="pt.americolib"/>
 		</list>
 		<list key="artifactId">
+			<item value="projWS_008_downloadImage"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
