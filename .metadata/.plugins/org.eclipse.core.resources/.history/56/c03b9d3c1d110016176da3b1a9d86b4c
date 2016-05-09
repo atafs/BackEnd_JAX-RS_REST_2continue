@@ -1,0 +1,9 @@
+package pt.americolib.projWS_001_template;
+
+import javax.ws.rs.Path;
+
+@Path("ws")
+public class MyResource {
+	
+	//GET, POST, PUT, DELETE...
+}

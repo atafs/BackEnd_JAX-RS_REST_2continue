@@ -1,25 +1,38 @@
 package pt.americolib.projWS_006_HTTP_header;
 
 import javax.ws.rs.GET;
+import javax.ws.rs.HeaderParam;
 import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
+import javax.ws.rs.core.Response;
 
 /**
  * Root resource (exposed at "myresource" path)
  */
-@Path("myresource")
+@Path("ws")
 public class MyResource {
 
-    /**
-     * Method handling HTTP GET requests. The returned object will be sent
-     * to the client as "text/plain" media type.
-     *
-     * @return String that will be returned as a text/plain response.
-     */
+	//Get HTTP header in JAX-RS ###
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String getIt() {
-        return "Got it!";
-    }
+	@Path("/get1")
+	public Response addUser(@HeaderParam("user-agent") String userAgent) {
+
+		return Response.status(200)
+			.entity("addUser is called, userAgent : " + userAgent)
+			.build();
+
+	}
+    
+    @GET
+	@Path("/get2")
+	public Response addUser(@Context HttpHeaders headers) {
+
+		String userAgent = headers.getRequestHeader("user-agent").get(0);
+		
+		return Response.status(200)
+			.entity("addUser is called, userAgent : " + userAgent)
+			.build();
+
+	}
 }

@@ -1,25 +1,33 @@
 package pt.americolib.projWS_008_downloadImage;
 
+import java.io.File;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
-import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
 
 /**
  * Root resource (exposed at "myresource" path)
  */
-@Path("myresource")
+@Path("ws")
 public class MyResource {
 
-    /**
-     * Method handling HTTP GET requests. The returned object will be sent
-     * to the client as "text/plain" media type.
-     *
-     * @return String that will be returned as a text/plain response.
-     */
-    @GET
-    @Produces(MediaType.TEXT_PLAIN)
-    public String getIt() {
-        return "Got it!";
-    }
+	//Download Image in JAX-RS
+	private static final String FILE_PATH2 = "C:\\Timwe\\test\\img1.jpg";
+
+	@GET
+	@Path("/image/get")
+	@Produces("image/png")
+	public Response getFile2() {
+
+		File file = new File(FILE_PATH2);
+
+		ResponseBuilder response = Response.ok((Object) file);
+		response.header("Content-Disposition",
+			"attachment; filename=image_from_server.png");
+		return response.build();
+
+	}
 }

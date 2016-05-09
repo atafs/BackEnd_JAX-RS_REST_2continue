@@ -48,6 +48,19 @@
 			<item value="[name]"/>
 		</list>
 	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="projMODULE_001_test"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.preferences.RemoteArchetypeCatalogDialog">
@@ -57,6 +70,8 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ameri\Google Drive\ws\BackEnd_JAX-RS_REST_2continue\projWS_010_downloadExcel"/>
+			<item value="C:\Users\ameri\Google Drive\ws\BackEnd_JAX-RS_REST_2continue\projWS_008_downloadImage"/>
 			<item value="C:\Users\ameri\Google Drive\ws\BackEnd_JAX-RS_REST_2continue\projWS_007_downloadFile"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -70,13 +85,24 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="pt.americolib.projWS_008_downloadImage"/>
+			<item value="pt.americolib.projWS_011_JAXB_objectToXml"/>
+			<item value="pt.americolib.projWS_011_v2uploadFile"/>
+			<item value="pt.americolib.projWS_011_uploadFile"/>
+			<item value="pt.americolib.projWS_010_downloadExcel"/>
+			<item value="pt.americolib.projWS_009_downloadPdf"/>
+			<item value="org.projMODULE_001_test"/>
 		</list>
 		<list key="groupId">
 			<item value="pt.americolib"/>
 		</list>
 		<list key="artifactId">
-			<item value="projWS_008_downloadImage"/>
+			<item value="projWS_011_JAXB_objectToXml"/>
+			<item value="projWS_011_v2uploadFile"/>
+			<item value="projWS_011_uploadFile"/>
+			<item value="projWS_011_"/>
+			<item value="projWS_010_downloadExcel"/>
+			<item value="projWS_009_downloadPdf"/>
+			<item value="projMODULE_001_test"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
