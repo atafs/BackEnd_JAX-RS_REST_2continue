@@ -1,10 +1,6 @@
 <html>
 <body>
 	
-    
-    
-    
-  	
 	<!-- Download image file from JAX-RS ######################################## -->
     <!-- TITLE -->
 	<h1>Jersey RESTful Web Application!</h1>
@@ -21,7 +17,5 @@
 	<h3>/projWS_001_template/americolib/ws/image/get/</h3>
 	<a href="http://localhost:8085/projWS_001_template/americolib/ws/image/get">Download Image File</a><br/><br/>	
 
-    
-    
 </body>
 </html>

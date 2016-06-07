@@ -1,5 +1,5 @@
 eclipse.preferences.version=1
 org.eclipse.jdt.launching.PREF_CONNECT_TIMEOUT=20000
 org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1462146460244" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1462146460244" name\="jdk1.8.0_71" path\="C\:\\Programas (more)\\jdk_java\\jdk8_71\\jdk1.8.0_71"/>\r\n</vmType>\r\n</vmSettings>\r\n
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1465333420740" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1465333281354" name\="jre1.8.0_91" path\="C\:\\ProgramAm\\java\\jre\\jre1.8.0_91"/>\r\n<vm id\="1465333420740" name\="jdk1.8.0_91" path\="C\:\\ProgramAm\\java\\jdk\\jdk1.8.0_91"/>\r\n</vmType>\r\n</vmSettings>\r\n
 org.eclipse.jdt.launching.only_include_exported_classpath_entries=false
